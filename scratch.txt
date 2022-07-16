@@ -1,0 +1,40 @@
+WAYS TO MAKE ACTION SELECTIONS INTERESTING
+    Modifiers
+        Target
+        Elemental/type effectiveness
+        Amount of mana to use (amplifier)
+        AoE spread
+        Duration
+        Accuracy
+        Power level (how long will you crank for power?)
+            Maybe even a descending power as you crank for a big reward at the end
+        Math or trivia (get it right to amplify stuff)
+
+    Terminal actions
+        Defense (vs just attacking)
+        Buffs/Debuffs
+        Combos (based on last action)
+
+    Misc
+        If it's funny
+        If it takes a minute to read
+
+
+MENUS
+
+    Fire -> Mild, Medium, Hot, Xtra Hot
+    Elemental -> Fire, Ice, Candy, Slime
+    Insult -> Mother, Heritage, Looks, Intelligence
+    Target -> Random, Foremost, Healthiest
+    Strength/Accuracy -> Quick, Mid, Slow
+    Duration/AoE Spread -> Concentrated, Mid, Dispersed
+    Power Level -> 10, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, .... 1, 1, 1, 1, 50
+    Defend -> Physical, Magical, Both
+    Sword -> Stab, Swing, Pommel
+    Blood Sacrifice -> 1, 5, 10
+    Magic -> Poison, Lightning, Blessing, Slow
+    Facial Expression -> Grimace, Glare, Grin, Gulp
+    Karate -> Punch, Kick, Chop
+    ?? -> Fuck, Marry, Kill
+    ?? -> Toasted, Untoasted
+    
