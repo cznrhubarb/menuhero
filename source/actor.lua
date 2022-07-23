@@ -16,28 +16,21 @@ Actor = class(function(actor, file, name, hp)
     actor.tweens = { }
 end)
 
-function Actor:isDead()
-	return self.currentHP <= 0
-end
-
 function Actor:drawHealthBar()
 	local fillRatio = self.currentHP / self.maxHP
 	gfx.drawRect(self.x - 15, self.y + 18, 30, 5)
 	gfx.fillRect(self.x - 15, self.y + 18, 30 * fillRatio, 5)
 end
 
+function Actor:isDead()
+	return self.currentHP <= 0
+end
+
 function Actor:inflictDamage(damage)
+	-- Someone else has to handle a call to isDead to remove the entire actor later...
 	self.currentHP = math.clamp(self.currentHP - damage, 0, self.maxHP)
 	if self.currentHP == 0 then
 		self.sprite:remove()
-		-- local idx = table.findIndex(enemySprites, actor)
-		-- if idx ~= -1 then
-		-- 	table.remove(enemySprites, idx)
-		-- else
-		-- 	-- TODO: Player's dead
-		-- 	table.removeByValue(partySprites, actor)
-		-- 	print("Player died")
-		-- end
 	end
 end
 
